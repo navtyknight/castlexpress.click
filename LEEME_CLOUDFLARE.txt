@@ -1,0 +1,11 @@
+CASTLE XPRESS - MIGRACIÓN GRATUITA A CLOUDFLARE PAGES
+
+1. Sube este ZIP en Cloudflare Workers & Pages > Pages > Direct Upload (drag and drop), o arrastra los archivos descomprimidos.
+2. Cloudflare Pages admite _worker.js en Direct Upload.
+3. En configuración del proyecto > Variables and Secrets, crea CASTLE_ACCESS_CODE con EL MISMO código privado que usabas en Netlify; marcar como Secret. NO compartirlo en el chat ni en archivos.
+4. Es posible que debas volver a desplegar después de añadir la variable.
+5. Prueba el enlace gratuito *.pages.dev y abre la correspondencia antes de cambiar DNS.
+6. Para conectar castlexpress.click (raíz), añadir dominio a Cloudflare y cambiar nameservers EN HOSTINGER a los nombres exactos que indique Cloudflare; NO antes de verificar la carta.
+7. No elimines Netlify ni el dominio Hostinger.
+
+Este paquete reutiliza los diseños de la versión 11; reemplaza solo la función de servidor y su ruta.
